@@ -1,0 +1,80 @@
+.user-cabinet-header {
+    font-size: 20px;
+}
+.site-header {
+    border-bottom: 1px solid #26a69a;
+    padding: 20px;
+}
+.site-title {
+    font-size: 24px;
+    margin: 0;
+}
+.modal-wrap {
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.modal-project {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    /* height: 320px; */
+    border: 1px solid #26a69a;
+    border-radius: 12px;
+    box-shadow: 1px 1px 10px #c0c0c0;
+    padding-left: 10px;
+    background: #fff;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+.modal-project-close {
+    position: absolute;
+    right: -15px;
+    top: -15px;
+}
+/* Slider rules */
+.form-slider {
+    width: 700px;
+    height: 340px;
+    /* background: bisque; */
+    margin-left: 0;
+    transition: all ease 0.5s;
+}
+.left-50, .right-50 {
+    width: 50%;
+    float: left;
+    min-height: 50px;
+    padding: 10px;
+}
+.right-50 {
+    /* background: green; */
+    max-height: 430px;
+    overflow-y: scroll;
+}
+.read-rules {
+    text-align: center;
+    cursor: pointer;
+}
+.read-rules-back {
+    padding: 10px;
+    cursor: pointer;
+}
+.sign-up-modal {
+    width: 370px;
+}
+.form-slider-wrapper {
+    overflow: hidden;
+}
